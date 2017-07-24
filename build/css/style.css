@@ -51,51 +51,10 @@ ul {
   clear: both;
   content: "";
 }
-.page-header {
-  width: 100%;
-  height: 600px;
-  background-image: url("../img/img_header.jpg");
-  background-repeat: no-repeat;
-  padding: 40px 55px;
-}
-.page-header__navigation {
+.about {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
-}
-.page-header__logo p {
-  color: #fff;
-  font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
-}
-.page-header__logo--bold {
-  font-weight: 700;
-}
-.page-header__logo--regular {
-  font-weight: 400;
-}
-.page-header__logo--light {
-  font-weight: 300;
-}
-.page-header b {
-  display: block;
-  color: #fff;
-  text-align: center;
-  font-size: 22px;
-  font-weight: bold;
-  letter-spacing: 5px;
-}
-.page-header__menu li {
-  display: inline-block;
-  margin-right: 20px;
-}
-.page-header__menu li:last-child {
-  margin-right: 0px;
-}
-.page-header__menu a {
-  color: #fff;
-  font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  padding: 130px 0 90px;
 }
