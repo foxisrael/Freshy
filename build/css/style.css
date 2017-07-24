@@ -5,57 +5,49 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   overflow-x: hidden;
   font-family: 'Hind', sans-serif;
   margin: 0 auto;
 }
-
 img {
   width: 100%;
   height: auto;
 }
-
 h1 {
-  font-size: @font-size-h1;
+  font-size: 80px;
   font-family: 'Montserrat', sans-serif;
 }
-
 h2 {
-  font-size: @font-size-h2;
+  font-size: 35px;
   font-family: 'Montserrat', sans-serif;
 }
-
 h3 {
-  font-size: @font-size-h3;
+  font-size: 22px;
   font-family: 'Montserrat', sans-serif;
 }
-
 p {
-  font-size: @font-size-basic;
+  font-size: 14px;
 }
-
 a {
   text-decoration: none;
 }
-
 ul {
   margin: 0;
   padding: 0;
 }
-
-li {}
-
 .wrapper {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 55px;
 }
-
 .clearfix::after {
   display: table;
   clear: both;
   content: "";
+}
+.page-header {
+  height: 600px;
+  background: url("..\img\img_page-header.jpg") cover no-repeat;
 }
