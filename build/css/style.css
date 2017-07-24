@@ -74,6 +74,9 @@ ul {
   background: #fff;
   color: #00a1eb;
 }
+button {
+  cursor: pointer;
+}
 .about {
   display: -ms-flexbox;
   display: flex;
@@ -150,8 +153,18 @@ ul {
   font-weight: bold;
   font-size: 20px;
 }
-.asortyment__items button {
+.asortyment__item-1 button,
+.asortyment__item-2 button,
+.asortyment__item-3 button,
+.asortyment__item-4 button {
   display: none;
+}
+.asortyment__item-1:hover button,
+.asortyment__item-2:hover button,
+.asortyment__item-3:hover button,
+.asortyment__item-4:hover button {
+  display: block;
+  margin: 0 auto;
 }
 .asortyment__item-1,
 .asortyment__item-2,
@@ -160,6 +173,7 @@ ul {
   width: 270px;
   height: 270px;
   padding-top: 80px;
+  cursor: pointer;
 }
 .asortyment__item-1 {
   background: url("../img/img_riba_1.jpg") no-repeat;
@@ -255,6 +269,10 @@ ul {
   color: #fff;
   font-size: 25px;
   font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+.page-header__logo:hover p {
+  text-decoration: underline;
 }
 .page-header__logo--bold {
   font-weight: 700;
@@ -286,6 +304,9 @@ ul {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
+.page-header__menu a:hover {
+  text-decoration: underline;
+}
 .services {
   text-align: center;
 }
@@ -310,6 +331,15 @@ ul {
   border-radius: 50%;
   text-align: center;
   margin: 0 auto 30px;
+}
+.services__item-icon:hover {
+  background-color: #fff;
+  border: 3px solid #00a1eb;
+}
+.services__item-icon:hover .services__item-icon-1,
+.services__item-icon:hover .services__item-icon-2,
+.services__item-icon:hover .services__item-icon-3 {
+  fill: #00a1eb;
 }
 .services__item-icon-1 {
   position: relative;
